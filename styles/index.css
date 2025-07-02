@@ -1,7 +1,6 @@
 /* 쇼핑몰 사이트 */
-main {}
-main section {
-}
+main {padding:60px;}
+main section {margin-bottom:61px;}
 main section h1 {
     font-size:1.25rem;
     font-weight:600;
@@ -38,58 +37,70 @@ main section .content .right .age_btn #btn_30 {
     padding:8px 20px;
     color:#fff;
 }
+/* --------------------------제품들 */
 main section .content .right .container {
-    display:flex;
+    display:flex; flex-flow:row nowrap;
 }
-main section .content .right .container .product {
+main section .content .right .container li {
     display:flex; flex-flow:column nowrap;
-    gap:5px;
     width:223px;
     margin-right:15px;
 }
-main section .content .right .container .product > img {
-    width:100%;
-    height:262px
+main section .content .right .container li a {}
+main section .content .right .container li a img {
+    width:100%; height:262px;
 }
-main section .content .right .container .product + span {}
-main section .content .right .container .product + span a {}
-main section .content .right .container .product + span button {}
-main section .content .right .container .product + span button img {width:24px; height:24px;}
-main section .content .right .container .product a {}
-main section .content .right .container .product span {
+main section .content .right .container li .content {
+    display:flex; flex-flow: column nowrap;
+    gap:5px
+}
+main section .content .right .container li .content .brand {position: relative;}
+main section .content .right .container li .content .brand a {}
+main section .content .right .container li .content .brand a button {}
+main section .content .right .container li .content .brand a button img {}
+main section .content .right .container li .content a {}
+main section .content .right .container li .content p {
     font-size:0.875;
     font-weight:700;
 }
-main section .content .right .container .product span em {
+main section .content .right .container li .content p em {
     color:#f00;
+    margin-right:10px;
     font-size:0.875;
     font-weight:700;
 }
-main section .content .right .container .b_001 {}
-main section .content .right .container .b_002 {}
-main section .content .right .container .b_003 {}
-main .user_taste h1 {}
-main .user_taste .container {}
-main .user_taste .container .product {}
-main .user_taste .container .product img {}
-main .user_taste .container .product + span {}
-main .user_taste .container .product + span a {}
-main .user_taste .container .product + span button {}
-main .user_taste .container .product + span button img {}
-main .user_taste .container .product a {
+
+main .user_taste h1 {
+    font-size:1.25rem;
+    font-weight:600;
+    margin-bottom:11px;
 }
-main .user_taste .container .product span {
+main .user_taste .container {display: flex;}
+main .user_taste .container li {
+    display:flex; flex-flow:column nowrap;
+    width:223px;
+    margin-right:15px;
+}
+main .user_taste .container li a {}
+main .user_taste .container li a img {
+    width:100%; height:262px;
+}
+main .user_taste  .container li .content {
+    display:flex; flex-flow: column nowrap;
+    gap:5px
+}
+main .user_taste .container li .content .brand {position: relative;}
+main .user_taste .container li .content .brand a {}
+main .user_taste .container li .content .brand a button {}
+main .user_taste .container li .content .brand a button img {}
+main .user_taste .container li .content a {}
+main .user_taste .container li .content p {
     font-size:0.875;
     font-weight:700;
 }
-main .user_taste .container .product span em {
+main .user_taste .container li .content p em {
     color:#f00;
+    margin-right:10px;
     font-size:0.875;
     font-weight:700;
 }
-main .user_taste .container .pd_001 {}
-main .user_taste .container .pd_002 {}
-main .user_taste .container .pd_003 {}
-main .user_taste .container .pd_004 {}
-main .user_taste .container .pd_005 {}
-main .user_taste .container .pd_006 {}
