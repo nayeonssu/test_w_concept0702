@@ -1,0 +1,95 @@
+/* 쇼핑몰 사이트 */
+main {}
+main section {
+}
+main section h1 {
+    font-size:1.25rem;
+    font-weight:600;
+    margin-bottom:11px;
+}
+main section .content {
+    display:flex;
+    gap:41px;
+}
+main section .content .left {width:460px;}
+main section .content .left img {width:100%;}
+main section .content .left > .like {}
+main section .content .left > .like img {}
+main section .content .right {}
+main section .content .right .title {}
+main section .content .right .title h2 {
+    font-size:1.5rem;
+    font-weight:600;
+    margin-bottom:9px;
+}
+main section .content .right .title p {}
+main section .content .right .age_btn {
+    padding:88px 0 20px;
+}
+main section .content .right .age_btn #btn_20 {
+    margin-right:15px;
+    border:1px solid #000;
+    border-radius:50px;
+    padding:8px 20px;
+}
+main section .content .right .age_btn #btn_30 {
+    background:#000;
+    border-radius:50px;
+    padding:8px 20px;
+    color:#fff;
+}
+main section .content .right .container {
+    display:flex;
+}
+main section .content .right .container .product {
+    display:flex; flex-flow:column nowrap;
+    gap:5px;
+    width:223px;
+    margin-right:15px;
+}
+main section .content .right .container .product > img {
+    width:100%;
+    height:262px
+}
+main section .content .right .container .product + span {}
+main section .content .right .container .product + span a {}
+main section .content .right .container .product + span button {}
+main section .content .right .container .product + span button img {width:24px; height:24px;}
+main section .content .right .container .product a {}
+main section .content .right .container .product span {
+    font-size:0.875;
+    font-weight:700;
+}
+main section .content .right .container .product span em {
+    color:#f00;
+    font-size:0.875;
+    font-weight:700;
+}
+main section .content .right .container .b_001 {}
+main section .content .right .container .b_002 {}
+main section .content .right .container .b_003 {}
+main .user_taste h1 {}
+main .user_taste .container {}
+main .user_taste .container .product {}
+main .user_taste .container .product img {}
+main .user_taste .container .product + span {}
+main .user_taste .container .product + span a {}
+main .user_taste .container .product + span button {}
+main .user_taste .container .product + span button img {}
+main .user_taste .container .product a {
+}
+main .user_taste .container .product span {
+    font-size:0.875;
+    font-weight:700;
+}
+main .user_taste .container .product span em {
+    color:#f00;
+    font-size:0.875;
+    font-weight:700;
+}
+main .user_taste .container .pd_001 {}
+main .user_taste .container .pd_002 {}
+main .user_taste .container .pd_003 {}
+main .user_taste .container .pd_004 {}
+main .user_taste .container .pd_005 {}
+main .user_taste .container .pd_006 {}
